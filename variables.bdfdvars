@@ -167,3 +167,6 @@ value= /\
 
 name= data collect
 value= enable
+
+name= version
+value= 7.0.4
