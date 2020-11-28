@@ -1,6 +1,7 @@
 $nomention
 $blackListIDs[$getVar[blacklist];$getVar[wrong] **You are blacklisted from using CRBT, for more information, go to https://clembs.xyz/crbtsupport**]
 $argsCheck[0;]
+$clear[1]
 
 $title[Current color: #$replaceText[$getVar[border color;$authorID];1192740;123324;1]]
 
