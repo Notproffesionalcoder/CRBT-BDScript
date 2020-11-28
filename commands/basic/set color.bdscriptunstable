@@ -1,0 +1,16 @@
+$nomention
+$blackListIDs[$getVar[blacklist];$getVar[wrong] **You are blacklisted from using CRBT, for more information, go to https://clembs.xyz/crbtsupport**]
+$argsCheck[0;]
+
+$title[Current color: #$replaceText[$getVar[border color;$authorID];1192740;123324;1]]
+
+$description[To change your message border color, simply type in `//set color` followed by a HEX color value or one of these color names:
+
+Standard colors: DarkRed • Red • Orange • Yellow • LightGreen • Green • LightBlue • Blue • Dark Blue • Cyan • Turquoise • Pink • Purple • Blurple • Brown
+Not really colors but ehh: Black • White • Grey
+Special colors: Clembs (blue-ish purple) • Akai (dark green)
+]
+
+$thumbnail[https://api.alexflipnote.dev/color/image/$replaceText[$getVar[border color;$authorID];1192740;123324;1]]
+
+$color[$getVar[border color;$authorID]]
