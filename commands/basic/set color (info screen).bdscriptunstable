@@ -8,7 +8,7 @@ $title[Current color: #$replaceText[$getVar[border color;$authorID];1192740;1233
 $description[To change your message border color, simply type in `//set color` followed by a HEX color value or one of these color names:
 
 Standard colors: 
-DarkRed • Red • Orange • Yellow • LightGreen • Green • LightBlue • Blue • Dark Blue • Cyan • Turquoise • Pink • Purple • Blurple • Brown
+DarkRed • Red • Orange • Yellow • LightGreen • Green • LightBlue • Blue • DarkBlue • Cyan • Turquoise • Pink • Purple • Blurple • Brown
 
 Not really colors but ehh: 
 Black • White • Grey
