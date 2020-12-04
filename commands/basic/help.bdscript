@@ -16,7 +16,7 @@ $addField[**$replaceText[$replaceText[$getServerVar[category profile];no;$getVar
 To explore the possibilites the profiles have to offer
 ;yes]
 
-$addField[**$replaceText[$replaceText[$getServerVar[category pixelpets];no;$getVar[disable];1];yes;$getVar[enable];1] `$getVar[prefix]help Economy`**;
+$addField[**$replaceText[$replaceText[$getServerVar[category economy];no;$getVar[disable];1];yes;$getVar[enable];1] `$getVar[prefix]help Economy`**;
 Ways to earn, use and give your Purplets
 ;yes]
 
