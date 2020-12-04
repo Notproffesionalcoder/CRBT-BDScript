@@ -28,10 +28,6 @@ $addField[**$replaceText[$replaceText[$getServerVar[category fun];no;$getVar[dis
 Moderation commands and stuff related to them
 ;yes]
 
-$addField[**<:forcedenabled:768832720557047829> `$getVar[prefix]help Music`**;
-Play YouTube titles directly from CRBT!
-;yes]
-
 $addField[**<:forcedenabled:768832720557047829> `$getVar[prefix]help Basic`**;
 The basic stuff, commands you should remember
 ;yes]
