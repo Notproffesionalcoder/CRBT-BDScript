@@ -26,4 +26,4 @@ Every user who has the "Kick users" permission is considered as a moderator.
 $footer[$getVar[prefix]help ▪ Executed by $username#$discriminator[$authorID]]
 $footerIcon[$authorAvatar]
 
-$color[$getVar[purple]]
+$color[$getVar[border color;$authorID]]
