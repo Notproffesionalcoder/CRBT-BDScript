@@ -2,6 +2,7 @@ $nomention
 $blackListIDs[$getVar[blacklist];$getVar[wrong] **You are blacklisted from using CRBT, for more information, go to https://clembs.xyz/crbtsupport**]
 $onlyIf[$getVar[bank;$authorID]>0;$getVar[wrong] **You don't have any Purplets to give!**]
 $onlyIf[$noMentionMessage<$getVar[bank;$authorID];$getVar[wrong] **You don't have that much Purplets to give!**]
+$onlyIf[$mentioned[1]!=$authorID;$getVar[wrong] **You can't give any Purplets to yourself!**]
 $enabled[$getServerVar[category economy];$getVar[wrong] **This command is currently disabled on this server.**]
 $onlyIf[$noMentionMessage>0;$getVar[wrong] **You can't give no Purplets!**]
 $argsCheck[>2;$getVar[wrong] **You need to specify a correct amount of Purplets to give.**]
